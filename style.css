@@ -65,12 +65,12 @@ p.explorer_00003 {
     top: 2%;
 }
 div.explorer_00004 {
+    border-radius: 6px;
     height: 5%;
     left: 96%;
     position: absolute;
     top: 4%;
     width: 3%;
-    border-radius: 6px;
 }
 div.explorer_00004:hover {
     background-color: red;
@@ -119,12 +119,12 @@ img.photo_00003 {
     width: 3%;
 }
 div.explorer_00008 {
+    border-radius: 6px;
     height: 5%;
     left: 93%;
     position: absolute;
     top: 4%;
     width: 3%;
-    border-radius: 6px;
 }
 div.explorer_00008:hover {
     background-color: blue;
@@ -147,4 +147,19 @@ img.photo_00004 {
     position: absolute;
     top: 3%;
     width: 2%;
+}
+div.explorer_00010 {
+    background-color: #e6e6e6;
+    border: thin groove #bdbdbd;
+    height: 79%;
+    left: 2%;
+    position: absolute;
+    top: 6%;
+    width: 55%;
+}
+#MY_VIDEO_1 {
+    border: thin groove #bdbdbd;
+    left: 3%;
+    position: absolute;
+    top: 11%;
 }
