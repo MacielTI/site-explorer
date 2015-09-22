@@ -151,15 +151,18 @@ img.photo_00004 {
 div.explorer_00010 {
     background-color: #e6e6e6;
     border: thin groove #bdbdbd;
-    height: 79%;
-    left: 2%;
-    position: absolute;
-    top: 6%;
-    width: 55%;
-}
-#MY_VIDEO_1 {
-    border: thin groove #bdbdbd;
+    height: 72%;
     left: 3%;
     position: absolute;
-    top: 11%;
+    top: 16%;
+    width: 55%;
+}
+#video_1 {
+    height: 72%;
+    left: 3%;
+    position: absolute;
+    top: 16%;
+    width: 55%;
+    z-index: 1;
+    border: 1px solid #6e6e6e;
 }
