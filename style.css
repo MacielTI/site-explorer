@@ -137,10 +137,6 @@ div.explorer_00009 {
     top: 5%;
     width: 1%;
 }
-a.link_00006 {
-    color: black;
-    text-decoration: none;
-}
 img.photo_00004 {
     height: 7%;
     left: 36%;
@@ -158,11 +154,20 @@ div.explorer_00010 {
     width: 55%;
 }
 #video_1 {
+    border: 1px solid #6e6e6e;
     height: 72%;
     left: 3%;
     position: absolute;
     top: 16%;
     width: 55%;
     z-index: 1;
-    border: 1px solid #6e6e6e;
+}
+.a {
+    background-color: #e6e6e6;
+    border: thin groove #bdbdbd;
+    height: 75%;
+    left: 65%;
+    position: absolute;
+    top: 9%;
+    width: 33%;
 }
