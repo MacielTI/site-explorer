@@ -217,39 +217,79 @@ ul {
     background-position: -5% -34%;
     background-repeat: no-repeat;
 }
-.h{
-  border: thin groove #bdbdbd;
+.h {
+    border: thin groove #bdbdbd;
     height: 19%;
     left: 67%;
     position: absolute;
     top: 18%;
     width: 15%;
 }
-.opu{
-  left: 71%;
-  position: absolute;
-  top: 6%;
-  }
-  .wqe{
+.opu {
+    left: 71%;
+    position: absolute;
+    top: 6%;
+}
+.wqe {
     left: 80%;
     list-style-type: none;
     position: absolute;
     top: 15%;
-  }
-  .poiu{
+}
+.poiu {
     color: red;
     left: 64%;
     list-style-type: none;
     position: absolute;
     top: 40%;
-  }
-  .dsa{
+}
+.dsa {
     color: red;
-  }
-  .wef{
-left: 10%;
-top: 10%;
-height: 10%;
-width: 10%;
-    position: 10%;
-    }
+}
+.wef {
+    height: 10%;
+    left: 10%;
+    top: 10%;
+    width: 10%;
+}
+.jhg {
+    height: 10%;
+    left: 0%;
+    position: absolute;
+    top: 1%;
+    width: 5%;
+}
+.kdfmn {
+    left: 0%;
+    position: absolute;
+    top: 10%;
+}
+.supermercado{
+  border: thin groove #bdbdbd;
+  height: 19%;
+  left: 67%;
+  position: absolute;
+  top: 18%;
+  width: 15%;
+}
+.planta{
+  left: 71%;
+  position: absolute;
+  top: 6%;
+}
+.cauda{
+  left: 80%;
+  list-style-type: none;
+  position: absolute;
+  top: 15%;
+}
+.planes{
+  color: red;
+  left: 64%;
+  list-style-type: none;
+  position: absolute;
+  top: 40%;
+}
+.nove{
+  color: red;
+}
