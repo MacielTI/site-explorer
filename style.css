@@ -102,7 +102,10 @@ div.explorer_00006 {
     width: 65%;
 }
 ul.explorer_00007 {
+    left: 32%;
     list-style-type: none;
+    position: absolute;
+    top: 9%;
 }
 img.photo_00002 {
     height: 5%;
@@ -171,3 +174,82 @@ div.explorer_00010 {
     top: 9%;
     width: 33%;
 }
+.b {
+    border: thin groove #bdbdbd;
+    height: 19%;
+    left: 67%;
+    position: absolute;
+    top: 18%;
+    width: 15%;
+}
+.c {
+    left: 71%;
+    position: absolute;
+    top: 6%;
+}
+.d {
+    left: 80%;
+    list-style-type: none;
+    position: absolute;
+    top: 15%;
+}
+.e {
+    color: red;
+    left: 64%;
+    list-style-type: none;
+    position: absolute;
+    top: 40%;
+}
+a {
+    text-decoration: none;
+}
+.f {
+    color: red;
+}
+ul {
+    list-style-type: none;
+}
+.link_00006 {
+    color: black;
+}
+.bodyimg {
+    background-image: url("photos/report.png");
+    background-position: -5% -34%;
+    background-repeat: no-repeat;
+}
+.h{
+  border: thin groove #bdbdbd;
+    height: 19%;
+    left: 67%;
+    position: absolute;
+    top: 18%;
+    width: 15%;
+}
+.opu{
+  left: 71%;
+  position: absolute;
+  top: 6%;
+  }
+  .wqe{
+    left: 80%;
+    list-style-type: none;
+    position: absolute;
+    top: 15%;
+  }
+  .poiu{
+    color: red;
+    left: 64%;
+    list-style-type: none;
+    position: absolute;
+    top: 40%;
+  }
+  .dsa{
+    color: red;
+  }
+  .wef{
+left: 10%;
+top: 10%;
+height: 10%;
+width: 10%;
+    position: 10%;
+    }
