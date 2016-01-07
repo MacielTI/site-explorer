@@ -1,91 +1,67 @@
 
 body {
-    background-color: #2eccfa;
+    background-color: #2e9afe;
 }
-.biplano {
+.barra_de_tarefas {
     background-color: black;
-    height: 8%;
+    height: 5%;
     left: 0;
     position: absolute;
-    top: 92%;
+    top: 95%;
     width: 100%;
 }
-.ovelha {
-    height: 8%;
+.fundo_da_home {
+    background-color: #2e2efe;
+    height: 74%;
     left: 0;
     position: absolute;
-    top: 92%;
-    width: 5%;
+    top: 21%;
+    width: 17%;
 }
-.cante {
-    height: 8%;
+.botao_home {
+    height: 5%;
     left: 0;
     position: absolute;
-    top: 92%;
-    width: 5%;
+    top: 95%;
+    width: 4%;
 }
-.frente {
-    background-color: black;
-    height: 82%;
-    left: 0;
-    opacity: 0.4;
-    position: absolute;
-    top: 10%;
-    width: 20%;
-}
-.carro {
-    height: 8%;
-    left: 0;
-    position: absolute;
-    top: 92%;
-    width: 5%;
-}
-.quadrado {
-    left: -1%;
+.lista_da_home {
+    font-size: 135%;
     list-style-type: none;
-    position: absolute;
-    top: 10%;
 }
-.retardado {
-    height: 77%;
-    left: 29%;
+.janela_explorer {
+    height: 71%;
+    left: 43%;
+    position: absolute;
+    top: 4%;
+    width: 57%;
+}
+.titulo_da_janela_series {
+    color: white;
+    font-size: 156%;
+    left: 49%;
     position: absolute;
     top: 2%;
-    width: 70%;
 }
-.moto {
-    z-index: 1;
-}
-.codigo {
-    border-radius: 100%;
-    height: 2%;
-    left: 29%;
-    position: absolute;
-    top: 3%;
-    width: 2%;
-}
-.roupa {
-    height: 9%;
-    left: 6%;
-    position: absolute;
-    top: 91%;
-    width: 7%;
-}
-.series {
+.lista_janela_series {
     color: white;
-    height: 10%;
-    left: 35%;
-    position: absolute;
-    top: 0;
-    width: 10%;
-}
-.biscoito {
-    left: 41%;
+    left: 53%;
     list-style-type: none;
     position: absolute;
-    top: 13%;
+    top: 14%;
 }
-.bosta {
+.botao_de_fechar_series {
+    border-radius: 50%;
+    height: 2%;
+    left: 43%;
+    position: absolute;
+    top: 5%;
+    width: 2%;
+}
+.lista_de_series_dubladas {
     color: white;
-    font-size: 110%;
+    left: 53%;
+    list-style-type: none;
+    position: absolute;
+    top: 14%;
 }

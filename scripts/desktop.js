@@ -1,77 +1,27 @@
 $(document).ready(function(){
-  //esconde as divs
-  $(".frente").hide();
-  $(".quadrado").hide();
-  $(".retardado").hide();
-  $(".codigo").hide();
-  $(".roupa").hide();
-  $(".series").hide();
-  $(".biscoito").hide();
-
-  $(".ovelha").click(function(){
-    $(".quadrado").show(function(){
+  //escondendo os elementos
+  $(".fundo_da_home").hide();
+  $(".seletor_janela_explorer_series").hide();
+  $(".lista_de_series_dubladas").hide();
+  //exibir e esconder o menu da home quando clicar no botão de home
+  $(".botao_home").click(function(){
+    $(".fundo_da_home").show(function(){
       $(document).on("click",function(){
-    	   $(".quadrado").hide();
-      });
-    });
-    $(".frente").show( function(){
-      $(document).on("click",function(){
-    	   $(".frente").hide();
+        $(".fundo_da_home").hide();
       });
     });
   });
-  $(".moto").click(function(){
-    $(".retardado").show();
-    $(".codigo").show();
-    $(".roupa").show();
-    $(".series").show();
-    $(".biscoito").show();
-    $(".bosta").show();
-
+  //Exibir janela explorer series quando clicar em series na lista home
+  $(".lista_da_home_series").click(function(){
+    $(".seletor_janela_explorer_series").show();
   });
-  $(".codigo").click(function(){
-    $(".retardado").hide();
-    $(".codigo").hide();
-    $(".roupa").hide();
-    $(".series").hide();
-    $(".bosta").hide();
+  //fechar janela explorer series quando clicar no X
+  $(".botao_de_fechar_series").click(function(){
+    $(".seletor_janela_explorer_series").hide();
   });
-
-
-
-
-  $(".roupa").click(function(){
-    $(".retardado").hide(function(){
-      $(".roupa").on("click",function(){
-        $(".retardado").show();
-        $(".codigo").show();
-        $(".series").show();
-        $(".bosta").show();
-      });
-    });
-    $(".codigo").hide(function(){
-      $(".roupa").on("click",function(){
-        $(".retardado").show();
-        $(".codigo").show();
-        $(".series").show();
-        $(".bosta").show();
-      });
-    });
-    $(".series").hide(function(){
-      $(".roupa").on("click",function(){
-        $(".retardado").show();
-        $(".codigo").show();
-        $(".series").show();
-        $(".bosta").show();
-      });
-    });
-    $(".bosta").hide(function(){
-      $(".roupa").on("click",function(){
-        $(".retardado").show();
-        $(".codigo").show();
-        $(".series").show();
-        $(".bosta").show();
-      });
-    });
+  //exibir lista de series quando clicar em dubladas
+  $(".botao_series_dubladas").click(function(){
+    $(".lista_de_series_dubladas").show();
+    $(".lista_janela_series").hide();
   });
 });
