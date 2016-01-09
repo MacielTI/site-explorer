@@ -38,6 +38,7 @@ body {
 }
 .titulo_da_janela_series {
     color: white;
+    font-family: sans-serif;
     font-size: 156%;
     left: 49%;
     position: absolute;
@@ -45,6 +46,7 @@ body {
 }
 .lista_janela_series {
     color: white;
+    font-family: sans-serif;
     left: 53%;
     list-style-type: none;
     position: absolute;
@@ -58,8 +60,28 @@ body {
     top: 5%;
     width: 2%;
 }
-.lista_de_series_dubladas {
+.sherlock_serie_button {
     color: white;
+    font-family: sans-serif;
+    left: 55%;
+    list-style-type: none;
+    position: absolute;
+    top: 14%;
+}
+.lista_de_temporadas_sherlock {
+    color: white;
+    font-family: sans-serif;
+    left: 53%;
+    list-style-type: none;
+    position: absolute;
+    top: 14%;
+}
+.lista_da_home_series {
+    font-family: sans-serif;
+}
+.lista_de_episodios_sherlock_01temporada {
+    color: white;
+    font-family: sans-serif;
     left: 53%;
     list-style-type: none;
     position: absolute;
